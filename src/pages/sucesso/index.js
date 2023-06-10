@@ -17,7 +17,7 @@ export default function SucessPage(props)
 
             <div className={styles.text_container} data-test="seats-info">
                 <strong><p>Ingressos</p></strong>
-                {props.sucess_info.seats.map((i) => {return <p key={i.id} >Assento {i.name}</p>})}
+                {props.sucess_info && props.sucess_info.seats && props.sucess_info.seats.length > 0 && props.sucess_info.seats.map((i) => {return <p key={i.id} >Assento {i.name}</p>})}
             </div>
 
             <div className={styles.text_container} data-test="client-info">
