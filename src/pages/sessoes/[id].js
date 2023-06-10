@@ -1,4 +1,4 @@
-import styles from '@/styles/sessions.module.css'
+import styles from '@/styles/Sessions.module.css'
 import axios from 'axios';
 import { useRouter } from 'next/router';
 
